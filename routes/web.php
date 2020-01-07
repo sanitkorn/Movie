@@ -19,4 +19,5 @@ Route::get("/youtube","Youtube@index");
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/movie', 'MovieController@index')->name('movie');
+
+Route::get('/insert', 'MovieController@index')->name('insert');
